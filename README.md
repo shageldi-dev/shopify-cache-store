@@ -24,8 +24,6 @@ Before running the application, make sure you have the following installed:
 - [Folder Structure](#folder-structure)
 - [Environment Variables](#environment-variables)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
