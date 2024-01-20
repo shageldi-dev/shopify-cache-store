@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #f7f7f7 radial-gradient(circle, transparent 1%, #e0e0e0 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #d3d3d3;
+    background-size: 100%;
+    transition: background 0s;
+}

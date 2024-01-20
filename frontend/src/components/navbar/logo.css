@@ -1,0 +1,16 @@
+.logo-mobile{
+    width: 36px;
+    height: 36px;
+}
+
+.logo-desktop {
+    width: 36px;
+    height: 36px;
+}
+
+.logo-title {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}

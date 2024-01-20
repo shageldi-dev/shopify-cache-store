@@ -1,0 +1,26 @@
+.app-navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.637);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.app-navbar.mobile {
+    box-shadow: 0px 1px 11.4px 1px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.637);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
+}
+#mobile-title{
+    font-family: 'Ubuntu';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+}

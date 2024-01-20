@@ -1,0 +1,12 @@
+.products-title {
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 22px;
+}
+
+.products-title.mobile {
+    font-size: 22px;
+}

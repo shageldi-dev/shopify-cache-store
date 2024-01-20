@@ -1,0 +1,30 @@
+.search-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.04), 0px 24px 32px 0px rgba(0, 0, 0, 0.04);
+}
+
+.search-box input {
+    outline: none;
+    border: none;
+    color: #333;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 12px;
+}
+
+.search-box img {
+    width: 35px;
+    height: 35px;
+}
+
+.search-box.mobile img {
+    width: 27px;
+    height: 27px;
+}

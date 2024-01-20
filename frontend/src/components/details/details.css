@@ -1,0 +1,20 @@
+.details-body{
+    max-width: 100%;
+}
+
+.details-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.details-date {
+    width: 100%;
+    text-align: end;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

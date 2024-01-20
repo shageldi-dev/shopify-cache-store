@@ -1,0 +1,18 @@
+.header-title {
+    font-family: 'Ubuntu';
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 400;
+    width: 70%;
+    margin-top: 84px;
+}
+
+.header-title.mobile {
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 36px;
+}
