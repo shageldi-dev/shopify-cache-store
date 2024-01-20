@@ -1,8 +1,8 @@
 # Shopify-to-Elasticsearch Integration with React, NestJS, TypeScript, Redux Toolkit Query, and Docker
 
-![Project Logo](img/logo.svg)
-This project is a full-stack web application that integrates Shopify GraphQL API with Elasticsearch. It utilizes React with TypeScript for the frontend, NestJS with TypeScript for the backend, Redux Toolkit Query for state management, and Docker for containerization.
 ![Project Screenshot](img/splash.png)
+
+This project is a full-stack web application that integrates Shopify GraphQL API with Elasticsearch. It utilizes React with TypeScript for the frontend, NestJS with TypeScript for the backend, Redux Toolkit Query for state management, and Docker for containerization.
 
 ## Prerequisites
 
@@ -149,6 +149,27 @@ The project is organized as follows:
 |-- docker-compose.yml
 |-- README.md
 ```
+
+### Environment Variables
+
+#### Frontend (.env)
+
+    VITE_BASE_URL: Your Shopify Cache store backend URL.
+
+#### Backend (.env)
+
+    NODE_ENV: production | development
+    PORT: NestJS backend port
+
+    # ELASTICSEARCH
+    ELK_NODES: Elasticsearch nodes to connect. For eg: "http://localhost:9200" | "http://es1:9200", if multiple nodes: "http://es1:9200,http://es2:9200"
+    ELK_INDEX: Elasticsearch index (table) name
+    ELK_USERNAME: Auth username to connect elasticsearch
+    ELK_PASSWORD: Auth password to connect elasticsearch
+
+    # Shopify
+    SHOPIFY_URL: Shopify graphql url to GET products and ingest to elasticsearch.
+    SHOPIFY_API_KEY: Shopify api key to put header get-products request
 
 ### Usage
 
