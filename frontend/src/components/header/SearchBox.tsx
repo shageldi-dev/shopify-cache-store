@@ -8,7 +8,9 @@ const SearchBox = (props: SearchProps) => {
   const [name, setName] = useState("");
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    props.onSearchChange(name);
+    setTimeout(() => {
+      props.onSearchChange(name);
+    }, 500);
   };
   return (
     <form className={`search-box ${device}`} onSubmit={handleSubmit}>

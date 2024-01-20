@@ -37,7 +37,9 @@ const BottomBar = () => {
       />
       <BottomBarItem
         icon={<GithubOutlined style={iconStyle("/github")} />}
-        onClick={() => window.open("https://github.com/shageldi-dev")}
+        onClick={() =>
+          window.open("https://github.com/shageldi-dev/shopify-cache-store")
+        }
       />
     </div>
   );

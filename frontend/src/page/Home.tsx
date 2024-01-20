@@ -39,7 +39,7 @@ const Home: React.FC = () => {
           setSearch(value);
           setTimeout(() => {
             refetch();
-          }, 500);
+          }, 1000);
         }}
       />
 

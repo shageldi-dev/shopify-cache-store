@@ -81,8 +81,8 @@ ELK_USERNAME="elastic"
 ELK_PASSWORD=""
 
 # Shopify
-SHOPIFY_URL="https://cpb-new-developer.myshopify.com/admin/api/2023-10/graphql.json"
-SHOPIFY_API_KEY="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"
+SHOPIFY_URL=""
+SHOPIFY_API_KEY=""
 ```
 
 3. Start the NestJS server:

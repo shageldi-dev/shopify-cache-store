@@ -6,8 +6,8 @@ import GetProductParams from 'src/interfaces/request/get-product.params';
 @Injectable()
 export class PublicApiService {
   constructor(
-    private readonly elastic: ElasticsearchService,
-    private readonly config: ConfigService,
+    public readonly elastic: ElasticsearchService,
+    public readonly config: ConfigService,
   ) {}
 
   async getProducts(params: GetProductParams) {

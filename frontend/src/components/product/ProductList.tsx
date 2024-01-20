@@ -22,7 +22,7 @@ const ProductList: React.FC<IProps> = (props) => {
       <Typography className={`products-title ${device}`}>Products</Typography>
 
       <InfiniteScroll
-        dataLength={props.products!.length} //This is important field to render the next data
+        dataLength={props.products!.length}
         next={props.onNext}
         style={{
           minWidth: "100%",
